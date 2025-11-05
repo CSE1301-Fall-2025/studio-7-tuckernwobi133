@@ -15,6 +15,6 @@ public class Die {
 
     public static void main(String[] args){
         Die d = new Die(6);
-        System.out.println(d);
+        System.out.println(d;
     }
 }

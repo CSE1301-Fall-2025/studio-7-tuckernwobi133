@@ -9,8 +9,12 @@ public class Die {
         return (int)(Math.random()*sides +1);
     }
 
+    public String toString(){
+        return "This is a die with " + sides + " sides ";
+    } 
+
     public static void main(String[] args){
         Die d = new Die(6);
-        System.out.println(d.rollDice());
+        System.out.println(d);
     }
 }

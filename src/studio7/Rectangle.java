@@ -28,11 +28,15 @@ public class Rectangle{
         StdDraw.rectangle(0.5,0.5,width/100,length/100);
     }
 
+    public String toString(){
+        return "This is a rectangle with a length of " + length + " and width of " + width;
+    } 
+
 
     public static void main (String[] args) {
         Rectangle r1 = new Rectangle(5,5);
         Rectangle r2 = new Rectangle(4,5);
-        r1.drawItself();
+        System.out.println(r1);
     }
 
 }
